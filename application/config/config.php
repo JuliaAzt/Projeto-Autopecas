@@ -6,6 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Base Site URL
 |--------------------------------------------------------------------------
 |
+
 | URL to your CodeIgniter root. Typically this will be your base URL,
 | WITH a trailing slash:
 |
@@ -22,8 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | If you need to allow multiple domains, remember that this file is still
 | a PHP script and you can easily do that on your own.
 |
+| A URL base do seu sistema.
+| Para sistemas locais utilizamos http://localhost/NomeDoProjetoAqui/
+|
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/Projeto-Autopecas/';
 
 /*
 |--------------------------------------------------------------------------
