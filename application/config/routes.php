@@ -51,23 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //---------------------------------ROTAS--------------------------------------------
-$route['default_controller'] = 'home'; //Nome do controller da PÁGINA INICIAL do seu sistema
+
+$route['default_controller'] = 'Home'; //Nome do controller da PÁGINA INICIAL do seu sistema
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
