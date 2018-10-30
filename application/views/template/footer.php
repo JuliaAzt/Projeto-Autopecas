@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <footer>
@@ -6,5 +7,6 @@
 		<div>Copyright R</div>
 	</div>
 		
+
 </footer>
 </html>

@@ -76,7 +76,6 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-
 	'username' => 'root',
 	'password' => '',
 	'database' => '', // coloque aqui o nome do seu banco de dados
@@ -95,3 +94,4 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+

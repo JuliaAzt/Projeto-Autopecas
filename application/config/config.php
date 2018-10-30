@@ -7,6 +7,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |--------------------------------------------------------------------------
 |
 
+|   A URL base do seu sistema.
+|   Para sistemas locais utilizamos http://localhost/NomeDoProjetoAqui/
 | URL to your CodeIgniter root. Typically this will be your base URL,
 | WITH a trailing slash:
 |
