@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
 <footer>
-	<div>
-		<img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/redeSocial.png ">
-		<div>Copyright R</div>
-	</div>
+	<br />
+
 		
+	<div>
+		<img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/redeSocial.png " class = "midias">
+		<span id="copyright">Copyright R</span>
+	</div>
+
+
+	<br />
+		<br />
+		<br />
+		<br />
+
 </footer>
 </html>
