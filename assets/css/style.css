@@ -14,15 +14,23 @@
     background-color: #e4e4e4;
     font-family:  'Montserrat', sans-serif; font-weight: 100;
     font-size: 16px;
-    color: #4b4b4b
+    color: #4b4b4b;
     position:relative;
     width: auto;
     height: auto;
     opacity: 0.8;
-    bottom: 100px;
-
-<<<<<<< HEAD
+    display:grid;
+    line-height:100px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 4px;
+   
 }
+
+a.nounderline:link 
+{ 
+text-decoration:none; 
+text-decoration-color: rgb(20, 20, 20);
+} 
 .paginas{
     position: relative;
     bottom: 15px;
@@ -30,23 +38,20 @@
 
 .fundo {
     background-image: url('carroHome.jpg');
-    width: 1340px;
-    height:1000px;
+    width: auto;
+    height:50%;
+    background-position: center -200px;
     background-size: cover;
     background-repeat: no-repeat;
-=======
-
-.bugada{
->>>>>>> upstream/master
+    margin:0;
 
 }
 
 .escrita{
     font-family:  'Montserrat', sans-serif; font-weight: 100;
-    color: #4b4b4b
+    color: #4b4b4b;
 }
 
-<<<<<<< HEAD
 .midias{
     width: 85px;
     height: auto;
@@ -54,6 +59,13 @@
     top: 20px;
 }
 
+.marcas{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    justify-content: center;
+    padding: 19px;
+}
 #copyright{
     position: relative;
     float:right;
@@ -62,34 +74,32 @@
 
 #meioDaPagina{
     background-color: #ffffff;
-    width: auto;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    bottom:100px;
 
 }
-=======
-/* GRUPO 1*/
->>>>>>> upstream/master
 
 #bosch{
     position: relative;
-    left: 20px;
+
 
 }
 
 #tresM{
     position: relative;
-    left: 180px;
-    bottom: 10px;
+    left:35%;
+    top:10px;
 }
 
 #nakata{
     position: relative;
-    left: 285px;
+    left:10%;
 }
 
 #textoMeioDaPagina{
     font-family:  'Montserrat', sans-serif; font-weight: 70;
-    left: 300px;
+    text-align: center;
     top:30px;
     position: relative;
 
@@ -97,22 +107,35 @@
 
 #auxMeioDaPagina{
     position: relative;
-    left: 120px;
+    
 }
+
 .finalDaPagina{
     background-color: #A5A5A5;
     width: auto;
     height: 400px;
-}
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    padding: 89px;
+    margin-top: 29px;
+    
 
+}
+.gridImagens{
+    width: 30%;
+    margin: 0;
+    float: left;
+    margin-left: 25px;
+}
 #atendimentoHome{
     background-color: #79C0E9;
     position: relative;
     width: 300px;
     height: 300px;
-    left: 100px;
-    top: 70px;
+
     display: inline-block;
+    border-radius: 10px;
 
 }
 
@@ -121,18 +144,17 @@
     position: relative;
     width: 300px;
     height: 300px;
-    left: 250px;
-    top:50px;
     display: inline-block;
+    border-radius: 10px;
+
 }
 #solucaoProblema{
     background-color: #46BDA1;
     position: relative;
     width: 300px;
     height: 300px;
-    left: 400px;
-    top: 50px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 #imagemAtendimentoHome{
@@ -142,6 +164,8 @@
     left:0px;
     top:0px;
     display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+    
 }
 #imagemPagamentoFacilitado{
     position: relative;
@@ -150,6 +174,7 @@
     left: 0px;
     top:0px;
     display: inline-block;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #imagemSolucaoProblema{
@@ -159,6 +184,7 @@
     left: 0px;
     top:0px;
     display: inline-block;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #textoAtendimentoHome{
@@ -169,10 +195,19 @@
 #textoPagamentoFacilitado{
      font-family:  'Montserrat', sans-serif; font-weight: 30;
      display: inline-block;
-     text-align: left;
+     text-align: center;
 }
 #textoSolucaoProblema{
      font-family:  'Montserrat', sans-serif; font-weight: 30;
      display: inline-block;
      text-align: center;
 }
+
+body {
+    margin:0;
+ }
+ .rodape{
+    font-family:  'Montserrat', sans-serif; font-weight: 30;
+    font-size: 12px;
+     padding:0px;
+ }
