@@ -1,5 +1,5 @@
 
-
+/*Pagina HOME*/
 .subtitulo{
 
     font-family: Arial;
@@ -210,4 +210,75 @@ body {
     font-family:  'Montserrat', sans-serif; font-weight: 30;
     font-size: 12px;
      padding:0px;
+ }
+
+ /*Pagina Onde Estamos-Contatos*/
+ .Titulo{
+     font-family: 'Montserrat', sans-serif; font-weight: 30;
+     font-size: 18px;
+     background-color: #A5A5A5;
+     width: auto;
+     height: 100px;
+     line-height: 0.6;
+     padding-left: 101px
+ }
+ #Contatos_t1
+ {
+    margin-top: 0px;
+    padding-top: 3%;
+
+ }
+ #NevesDinizTexto{
+     color:#F5E212;
+     line-height: 0.2;
+
+ }
+ .TextoDestacado{
+    background-image: url('Imagens/atendimento.jpg');
+    width: auto;
+    height:80%;
+    background-position: center -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 79px;
+    text-align: center;
+    color:#F5E212;
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 18px;
+ }
+
+ .GridContatos{
+    background-color: #A5A5A5;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 14px;
+    padding: 84px;
+
+ }
+.Contatos{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 300px;
+    height: 350px;
+
+    display: inline-block;
+    border-radius: 10px;
+}
+ #imgContato{
+    width: 7%;
+    height:7%;
+    margin-top: 44px;
+ }
+ #topicoContato{
+
+    text-align: center;
+    color:#F5E212;
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 14px;
+
  }
