@@ -6,6 +6,7 @@
             $this->load->view('template/html-header');
             $this->load->view('template/header');
             $this->load->view('QuemSomos');
+            $this->load->view('template/footer');
            
         }
     }   
