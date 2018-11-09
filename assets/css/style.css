@@ -282,3 +282,85 @@ body {
     font-size: 14px;
 
  }
+
+
+
+ /*Pagina Nossos Produtos*/
+
+
+.GridProdutosGeral{
+    background-color: #A5A5A5;
+    display:grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-column-gap: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 14px;
+
+ }
+
+ .GridProdutos{
+    background-color: #A5A5A5;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 14px;
+    padding: 41px; }
+.Produtos{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 280px;
+    height: 430px;
+
+    display: inline-block;
+    border-radius: 10px;
+}
+ #imgProduto{
+    width: auto;
+    height: 80px;
+    margin-top: 44px;
+ }
+ #tituloProdutos{
+    
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; font-weight: bold;
+        font-size: 14px;
+    
+     }
+ #topicoProdutos{
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 14px;
+
+ }
+
+ .Motor{
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 74%;
+    height: 61%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 17px;
+    margin-left: 134px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 30;
+    font-size: 14px;
+
+ }
+
+ #imgMotor{
+    width: auto;
+    height: 154px;
+    margin-top: 52px;
+ }
