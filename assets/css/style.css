@@ -27,7 +27,7 @@
 }
 
 a.nounderline:link 
-{ 
+{
 text-decoration:none; 
 text-decoration-color: rgb(20, 20, 20);
 } 
@@ -283,8 +283,6 @@ body {
 
  }
 
-
-
  /*Pagina Nossos Produtos*/
 
 
@@ -363,4 +361,65 @@ body {
     width: auto;
     height: 154px;
     margin-top: 52px;
+
+ .TrabalheConoscoBackground{
+    background-color: #A5A5A5;
+    position: relative;
+    width: auto;
+    height: auto;
+    bottom: 20px;
+    
+    
+ }
+
+ #TrabalheConoscoTitulo{
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 24px;
+    padding: 40px;
+ }
+
+ #TrabalheConoscoTextoDestacado{
+    color: #F5E212;
+ }
+ #TrabalheConoscoTextoPrincipal{
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 18px;
+    padding: 40px;
+    padding-top: 10px;
+ }
+ #TrabalheConoscoSaibaMais{
+    text-decoration: underline;
+    text-align: center;
+ }
+
+
+ #QuemSomosNossaMissao{
+    background-color: #F5E212;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    padding-bottom: 5px;
+ }
+ #QuemSomosTextoInicial{
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 20px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+ }
+
+ #parceirosQuemSomos{
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    
+ }
+
+ #QuemSomosBackgroundMeio{
+    background-image: url('Imagens/fancy.jpg');
+    width: auto;
+    height:80%;
+    background-position: center -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
  }
