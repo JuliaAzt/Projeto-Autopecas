@@ -1,8 +1,16 @@
 <html>
 <body >
-<div class="Titulo">
-<h3 id="Contatos_t1">Entre em contato com a</h3>
-<div id="NevesDinizTexto"><h3> Neves Diniz Auto Peças</h3></div>
+<div class="GridTituloNossosProdutos">
+    <div class="Titulo">
+        <h3 id="Contatos_t1">Entre em contato com a</h3>
+        <div id="NevesDinizTexto"><h3> Neves Diniz Auto Peças</h3></div>
+    </div>
+    <div class="enviaEmail"> 
+        Quer saber mais sobre nossos produtos? Entre em contato conosco! Retornaremos com informações sobre nossos produtos e formas de pagamento.
+        <br><br><div class="botaoemail"> <a href="mailto:realAutoPecas@gmail.com?subject=Entrem em contato comigo, preciso de mais informações sobre seus produtos.">
+            Entrar em contato</a></div>
+     </div>
+</div>
 </div>
 <div class="GridProdutosGeral">
     <div class="GridProdutos">
@@ -123,10 +131,10 @@
     
          </div>
     </div>
+   
 </div>
 
-
-</div>
+  
 </body>
 </html>
 

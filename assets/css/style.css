@@ -9,38 +9,41 @@
 .logo{
     width: 100px;
     height: auto;
+    padding-left: 23px;
+    padding-top: 18px;
 }
 .nav{
     background-color: #e4e4e4;
     font-family:  'Montserrat', sans-serif; font-weight: 100;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 100%;
     color: #4b4b4b;
     position:relative;
     width: auto;
     height: auto;
     opacity: 0.8;
     display:grid;
-    line-height:100px;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 4px;
-
-   
 }
 
 
 
 a:link, a:visited {
-	text-decoration: none
+    text-decoration: none;
+    color:rgb(0, 0, 0);
 	}
 a:hover {
 	text-decoration: none; 
-	color: rgb(0, 0, 0)
+	color: rgb(0, 0, 0);
 	}
 a:active {
-	text-decoration: none
+	text-decoration: none;
 	}
 
-
+.nounderline{
+    padding-top: 40px;
+}
 .nounderline:link 
 { 
 text-decoration:none; 
@@ -254,7 +257,8 @@ body {
      width: auto;
      height: 100px;
      line-height: 0.6;
-     padding-left: 101px
+     padding-left: 101px;
+     padding-top: 24px;
  }
  #Contatos_t1
  {
@@ -321,7 +325,13 @@ body {
 
  /*Pagina Nossos Produtos*/
 
-
+.GridTituloNossosProdutos
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+    background-color: #A5A5A5;
+}
 .GridProdutosGeral{
     background-color: #A5A5A5;
     display:grid;
@@ -342,7 +352,8 @@ body {
 
     font-family: 'Montserrat', sans-serif; font-weight: 30;
     font-size: 14px;
-    padding: 41px; }
+    padding: 41px; 
+}
 .Produtos{
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -362,8 +373,7 @@ body {
         text-align: center;
         font-family: 'Montserrat', sans-serif; font-weight: bold;
         font-size: 14px;
-    
-     }
+    }
  #topicoProdutos{
 
     text-align: center;
@@ -398,8 +408,25 @@ body {
     height: 154px;
     margin-top: 52px;
  }
+ .enviaEmail{
+    background-color: #A5A5A5;
+    
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 16px;
+    padding: 41px; 
+ }
 
-
+.botaoemail{
+    background-color: #F5E212;
+    position: relative;
+    width: 25%;
+    height: 30px;
+    display: inline-block;
+    border-radius: 3px;
+    padding-left: 27px;
+    padding-top: 9px;
+    color: black;
+}
  /* PAGINA QUEM SOMOS*/
 
  #tituloMeioQuemSomos

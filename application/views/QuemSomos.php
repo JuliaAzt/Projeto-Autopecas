@@ -8,7 +8,6 @@
         promovendo o melhor atendimento.
         </div>
         <img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/parceirosQuemSomos.png" class="parceiros">
-				
     </div>
     <div class="MeioQuemSomos">
         <div id="tituloMeioQuemSomos"> 
