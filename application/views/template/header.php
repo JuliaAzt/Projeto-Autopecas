@@ -8,7 +8,7 @@
 				
 				<div class="nounderline" ><a href = "<?php echo base_url('Home');?>">Início</a></div>
 				<div class="nounderline" ><a href = "<?php echo base_url('QuemSomos');?>">Quem somos</a></div>
-				<div class="nounderline" ><a href = "<?php echo base_url('OndeEstamos');?>">Onte estamos?</a></div>
+				<div class="nounderline" ><a href = "<?php echo base_url('OndeEstamos');?>">Onde estamos?</a></div>
 				<div class="nounderline" ><a href = "<?php echo base_url('OndeEstamos');?>">Nossos Contatos</a></div>
 				<div class="nounderline" ><a href = "<?php echo base_url('NossaFilosofia');?>">Nossa Filosofia</a></div>
 				<div class="nounderline" ><a href = "<?php echo base_url('NossosProdutos');?>">Nossos Produtos</a></div>

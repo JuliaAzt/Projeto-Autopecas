@@ -14,8 +14,8 @@
 				<h2>perfeitas para deixar seu carro perfeito</h2>
 				<h2>Venha nos fazer uma visita</h2></div>
 				<br>
-				<br>
-				<br>
+				<div class="botaoContato"><a href = "<?php echo base_url('OndeEstamos');?>">Contatos</a></div>
+				
 				<br>
 				<br>
 				<br>
@@ -45,17 +45,17 @@
 
 			<div  class="gridImagens" id="atendimentoHome">
 				<img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/atendimentoHome.jpg" id ="imagemAtendimentoHome">
-				<div id="textoAtendimentoHome">Atendimento feito por profissionais capacitados</div>
+				<br>Atendimento feito por profissionais capacitados
 			</div>
 				
 			<div class="gridImagens" id="pagamentoFacilitado">
 				<img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/pagamentoHome.jpg" id = "imagemPagamentoFacilitado">
-				<div id="textoPagamentoFacilitado">Pagamento facilitado</div>
+				<br>Pagamento facilitado
 			</div>
 
 			<div  class="gridImagens" id="solucaoProblema">
 					<img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/solucaoHome.jpg" id = "imagemSolucaoProblema">
-					<div id="textoSolucaoProblema">Encontre a solução para o seu problema</div>
+					<br>Encontre a solução para o seu problema
 			</div>
 
 	</div>
