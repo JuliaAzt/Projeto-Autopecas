@@ -470,7 +470,9 @@ body {
     background-repeat: no-repeat;
     margin: 0px;
  }
-
+.TrabalheConoscoBackground{
+    background-color: #595959;
+}
  .fimdepaginaQuemSomos{
     background-color: #595959;
     padding: 92px;
@@ -481,3 +483,25 @@ body {
  .mapaQuemSomos{
     padding-left: 50%;
  }
+
+ 
+ #TrabalheConoscoTitulo{
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 24px;
+    padding: 40px;
+ }
+
+ #TrabalheConoscoTextoDestacado{
+    color: #F5E212;
+ }
+ #TrabalheConoscoTextoPrincipal{
+    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-size: 18px;
+    padding: 40px;
+    padding-top: 10px;
+ }
+ #TrabalheConoscoSaibaMais{
+    text-decoration: underline;
+    text-align: center;
+ }
+
