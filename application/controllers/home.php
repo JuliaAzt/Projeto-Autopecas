@@ -9,4 +9,5 @@
            $this->load->view('template/footer');
         }
     }   
+    // fala q eh nois
 ?>
