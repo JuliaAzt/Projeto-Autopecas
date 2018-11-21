@@ -72,10 +72,10 @@ text-decoration-color: rgb(20, 20, 20);
 }
 
 .midias{
-    width: 85px;
+    width: 34px;
     height: auto;
     position: relative;
-    top: 20px;
+    top: 8px;
 }
 
 .marcas{
@@ -90,7 +90,11 @@ text-decoration-color: rgb(20, 20, 20);
     float:right;
     top: 20px;
 }
-
+.registro
+{
+    float: right;
+    font-size: 14px;
+}
 #meioDaPagina{
     background-color: #ffffff;
     width: 100%;
