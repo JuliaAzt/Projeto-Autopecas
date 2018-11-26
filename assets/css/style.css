@@ -490,9 +490,12 @@ body {
 
  
  #TrabalheConoscoTitulo{
-    font-family: 'Montserrat', sans-serif; font-weight: 30;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 30;
     font-size: 24px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 1px;
+    padding-bottom: 0px;
  }
 
  #TrabalheConoscoTextoDestacado{
