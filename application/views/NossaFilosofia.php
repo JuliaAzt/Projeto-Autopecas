@@ -2,6 +2,17 @@
 <body >
     <div class="TrabalheConoscoBackground">
         
+
+        <div  id="TrabalheConoscoTitulo">
+            <h3>Nossa Missão</h3>
+            <h3 id="TrabalheConoscoTextoDestacado">Atender com simplicidade e cordialiadade.</h3>
+        </div>
+
+        <div  id="TrabalheConoscoTitulo">
+            <h3>Nossa Visão</h3>
+            <h3 id="TrabalheConoscoTextoDestacado">Ser a melhor Auto Peças de Carandaí.</h3>
+        </div>
+
         <div  id="TrabalheConoscoTitulo">
             <h3>Nossa Filosofia</h3>
             <h3 id="TrabalheConoscoTextoDestacado">Trabalhamos única e exclusivamente em função do nosso cliente.</h3>
