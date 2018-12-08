@@ -7,7 +7,7 @@
         para automóveis, a preços acessíveis e 
         promovendo o melhor atendimento.
         </div>
-        <img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/parceirosQuemSomos.png" class="parceiros">
+        <img src=" http://localhost/Projeto-Autopecas/assets/img/Imagens/logoPrincipal.png" class="parceiros">
     </div>
     <div class="MeioQuemSomos">
         <div id="tituloMeioQuemSomos"> 
